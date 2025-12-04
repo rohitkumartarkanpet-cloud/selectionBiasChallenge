@@ -34,7 +34,8 @@ def prepare_image(
         Grayscale image as 2D array (height, width) with values in [0, 1]
     """
     # Load the image
-    original_img = Image.open(img_path)
+    original_img = Image.open("C:\\Rohit-UD2\\selectionBiasChallenge\\BiasChallenge.jpg")
+
     
     # Convert to grayscale if needed
     if original_img.mode != 'L':
